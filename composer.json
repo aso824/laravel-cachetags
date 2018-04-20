@@ -22,13 +22,13 @@
   },
   "autoload": {
     "psr-4": {
-      "aso824\\CacheTags\\": "src/"
+      "Aso824\\CacheTags\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "aso824\\CacheTags\\CacheServiceProvider"
+        "Aso824\\CacheTags\\CacheServiceProvider"
       ]
     }
   }

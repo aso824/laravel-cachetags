@@ -1,6 +1,6 @@
 <?php
 
-namespace aso824\CacheTags;
+namespace Aso824\CacheTags;
 
 use Illuminate\Cache\TagSet;
 
