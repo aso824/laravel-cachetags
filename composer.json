@@ -1,0 +1,35 @@
+{
+  "name": "aso824/laravel-cachetags",
+  "description": "Make possible to use tags with any cache driver on Laravel 5",
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "laravel",
+    "cache",
+    "cache-tags",
+    "laravel-5-package",
+    "php7"
+  ],
+  "authors": [
+    {
+      "name": "Jan Szenborn",
+      "email": "jan.szenborn@sp2aso.pl"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^5.5",
+    "illuminate/cache": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "aso824\\CacheTags\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "aso824\\CacheTags\\CacheServiceProvider"
+      ]
+    }
+  }
+}
